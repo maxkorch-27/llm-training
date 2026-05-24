@@ -140,7 +140,7 @@ Macro F1 (CV): 0.9473 (+-0.0190)
 
 Macro F1 (test): 0.6242
 
-Observation: Outputted the strongest performance so far; R2L and U2R detection improved substantially, while Probe and DoS also improved. XGBoost handled traffic patterns
+Observation: Outputted the strongest performance so far; R2L and U2R detection improved substantially, while Probe and DoS also improved.
 
 **Experiment 6: XGBoost + SMOTE + SelectKBest**
 
@@ -233,7 +233,7 @@ What surprisingly didn\'t help?
 
 What would you try with more time?
 
-- Deeper feature engineering. As it made F1 better with 3 features, i would probably do even better with more features.
+- Deeper feature engineering. As it made F1 better with 3 features, I would probably do even better with more features.
 
 Appendix: Environment
 
@@ -253,6 +253,6 @@ Hardware: Apple Macbook Air M4, 24 GB RAM.
 
 Python version: 3.13
 
-Key libraries: XGBoost,
+Key libraries: xgboost==3.2.0, scikit-learn==1.8.0, imbalanced-learn==0.14.1, sklearn-compat==0.1.5
 
 Random seed: 42
